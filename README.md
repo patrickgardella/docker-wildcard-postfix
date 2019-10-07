@@ -2,7 +2,7 @@
 
 Simple Postfix SMTP TLS relay [docker](http://www.docker.com) image with no local authentication enabled (to be run in a secure LAN) that forwards all email to a single email address.
 
-We needed a server for testing applications which would let us create unlimited email addresses under a single domain. All emails sent to this SMTP server will get forwaded to the email address passed in as the SMTP_USERNAME. A regex can be provided via the EMAIL_FILTER parameter which will only forward emails that match that regex. This will help reduce the amount of spam you will receive otherwise.
+We needed a server for testing applications which would let us create unlimited email addresses under a single domain. All emails sent to this SMTP server will get forwarded to the email address passed in as the SMTP_USERNAME. A regex can be provided via the EMAIL_FILTER parameter which will only forward emails that match that regex. This will help reduce the amount of spam you will receive otherwise.
 
 It also includes rsyslog to enable logging to stdout.
 
